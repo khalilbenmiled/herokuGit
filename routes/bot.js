@@ -2,7 +2,7 @@ var express = require('express');
 var router = express.Router();
 
 router.get('/',function(req,res){
-    res.send("Hello Boot")
+    res.send("Hello Bot")
 })
 
 module.exports = router;
